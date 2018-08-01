@@ -25,6 +25,7 @@ namespace Computer
             LabelSum.Text = "0";
         }
         
+        //數字鍵盤按鈕
         private void button1_Click(object sender, EventArgs e)
         {
             SumString += 1;
@@ -83,8 +84,9 @@ namespace Computer
                 LabelSum.Text = (SumString);
             }
         }
+        
 
-
+        //加減乘除按鈕
         private void Plus_Click(object sender, EventArgs e)
         {
             //將現在的字串轉數字
